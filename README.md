@@ -56,8 +56,22 @@ jupyter lab   # və ya: jupyter notebook
 # Alternativ olaraq skript:
 # python src/train.py  (əgər src/ altında skript saxlayırsansa)
 
-
-## 📦 Requirements
+### Project Structure
+loan-status-project/
+│
+├── data/
+│   └── loan_data.csv         # Dataset (əsas fayl)
+│
+├── src/
+│   └── train.py              # Skript (model training + nəticələr)
+│
+├── notebooks/
+│   └── loan_modeling.ipynb   # Jupyter Notebook (addım-addım analiz)
+│
+├── requirements.txt          # Lazımi paketlər
+├── README.md                 # Layihə təsviri
+└── .gitignore                # Opsional (venv, pycache və s. istisna üçün)
+##  Requirements
 
 Layihəni işlətmək üçün əsas paketlər:
 
