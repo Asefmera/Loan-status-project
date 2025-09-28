@@ -24,4 +24,49 @@ Model olaraq **Logistic Regression**, **Decision Tree** və **Random Forest** s�
 - `Credit_History` → `1.0` (mode)
 - `Loan_ID` sütunu çıxarıldı
 
+## Quickstart
+
+# 1) Klonla
+git clone https://github.com/asefmera/loan-status-project.git
+cd loan-status-project
+
+### 2) Virtual mühit (opsional) və quraşdırma
+python -m venv .venv
+# macOS/Linux:
+source .venv/bin/activate
+# Windows:
+# .venv\Scripts\activate
+
+pip install -r requirements.txt
+
+### 3) Datası qoy
+`loan_data.csv` faylını repo kökünə və ya `data/` qovluğuna yerləşdirin.
+
+### 4) Notebook və ya skript
+
+### Notebook ilə işlətmək**
+```bash
+jupyter lab
+# və ya:
+jupyter notebook
+
+jupyter lab   # və ya: jupyter notebook
+# Notebook-u aç, hüceyrələri ardıcıl işlə
+
+# Alternativ olaraq skript:
+# python src/train.py  (əgər src/ altında skript saxlayırsansa)
+
+
+## 📦 Requirements
+
+Layihəni işlətmək üçün əsas paketlər:
+
+- pandas  
+- numpy  
+- scikit-learn  
+- seaborn  
+- matplotlib  
+- plotly  
+- jupyter
+
   
